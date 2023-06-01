@@ -1,0 +1,95 @@
+{% load static %}
+
+<!-- Order Form and Contact -->
+<div class="row container m-auto" id="pricebtn">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <span class="text-color">Send a message</span>
+        <h3 class="text-md mb-5">Order Now</h3>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <form action="" method="POST"> 
+                    {% csrf_token %} 
+                    <div class="form-row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <select class="custom-select bg-light border-0 px-3" style="height: 60px;" name="need">
+                                    <option selected>Service type</option>
+                                    <option value="1">Web Development</option>
+                                    <option value="2">App Development</option>
+                                    <option value="3"> SEO Learn</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <select class="custom-select bg-light border-0 px-3" style="height: 60px;" name="package">
+                                    <option selected>Package type</option>
+                                    <option value="1">Silver</option>
+                                    <option value="2">Gold</option>
+                                    <option value="3"> Dimond</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="padding: 30px 20px;" name="name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="padding: 30px 20px;" name="mail">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control bg-light border-0" placeholder="Your Project Word" style="padding: 30px 20px;" name="sms">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <button class="btn btn-primary btn-block" type="submit" style="height: 60px;">Sign Up Now</button>
+                        </div>
+                    </div>  
+                </form>
+            </div>
+            <!----up form-->
+            <div class="col-lg-4">
+                <div class="short-info mt-5 mt-lg-0">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Call Us</h5>
+                            +88 01603 747 235
+                        </li>
+                        <li>
+                            <h5>Email Us</h5>
+                            tawhid0406@gmail.com
+                        </li>
+                        <li>
+                            <h5>Location Map</h5>
+                            Carabug, Ashuliya, Dhaka
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="social-icons list-inline mt-5">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/fmtawhid1"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/fmtawhid/"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/fmtawhid/"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!---full row -->

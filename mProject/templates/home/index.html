@@ -1,0 +1,324 @@
+{% extends "comon/base.html" %}
+
+{% load static %}
+
+{% block body %}
+
+<!-- Slider Start -->
+<section class="bannerhome d-flex align-items-center">
+	<div class="banner-img-part"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-md-12 col-xl-8">
+				<div class="block">
+					<span class="text-uppercase text-sm letter-spacing ">Create Your Unique Software</span>
+					<h1 class="mb-3 mt-3">Website Design &<br> Developer</h1>
+					<p class="mb-5 w-75 ">Hello World, We Are CSE Student Team In <b> SSR Institute of Technology </b>. We have a Experience Team for WebDevelopment, Software Development, and Bug Fixing .Hope you will like our service and Enjoy. </p>
+					<a href="about.html" target="_blank" class="btn btn-main">About Me<i class="fa fa-angle-right ml-2"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- <a href="about.html" target="_blank" class="btn btn-main">About Me<i class="fa fa-angle-right ml-2"></i></a> -->
+
+<section class="container pt-3 mb-3">
+    <h2 class="h2 block-title text-center">Our Services </small></h2>
+    <div class="row pt-5 mt-30">
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="/service/web/">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-newspaper fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">Web Development</h3>
+                    <p class="card-text text-sm">Theme customization is the act of modifying the appearance and functionality of a website or application by adjusting its pre-designed template or theme to personalize and tailor it to specific needs.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="/service/app/">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-code fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">Software Development </h3>
+                    <p class="card-text text-sm">Blogger templates are pre-designed layouts for the Blogger platform that determine the appearance and functionality of a blog, allowing bloggers to easily customize the look and feel of their site.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="/service/seo/">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-search fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">SEO Services</h3>
+                    <p class="card-text text-sm">Front-end development is the practice of creating the visual and interactive parts of a website or application using HTML, CSS, and JavaScript. It is crucial in providing a user-friendly interface.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- section portfolio start -->
+<section class="section portfolio pb-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="heading">
+					<h2 class="mb-4">How did we complete the <span class="text-color-primary"> experience?</h2>
+					<p>We have completed a lot of work over the past year. We got a lot of experience from there. If you want to see our work, click the button below.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row portfolio-gallery">
+			<div class="col-lg-4 col-md-6">
+				<div class="portfolio-item position-relative mb-4">
+					<a href="project-details.html">
+						<img src="{% static 'images/portfolio/1.jpg' %}" alt="" class="img-fluid w-100">
+						<div class="overlay-item"><i class="ti-link"></i></div>	
+						
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Business Website</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="project-details.html">
+						<img src="{% static 'images/portfolio/2.jpg' %}" alt="" class="img-fluid w-100">
+						<div class="overlay-item">
+							<i class="ti-link"></i>
+						</div>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Agency Website</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="project-details.html">
+						<img src="{% static 'images/portfolio/3.jpg' %}" alt="" class="img-fluid w-100">
+
+						<div class="overlay-item">
+							<i class="ti-link"></i>
+						</div>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Online Store </h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="project-details.html">
+						<img src="{% static 'images/portfolio/4.jpg' %}" alt="" class="img-fluid w-100">
+
+						<div class="overlay-item">
+							<i class="ti-link"></i>
+						</div>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">E-commerce </h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative  mb-4">
+					<a href="project-details.html">
+						<img src="{% static 'images/portfolio/5.jpg' %}" alt="" class="img-fluid w-100">
+
+						<div class="overlay-item">
+							<i class="ti-link"></i>
+						</div>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">E-commerce 2</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="project-details.html">
+						<img src="{% static 'images/portfolio/6.jpg' %}" alt="" class="img-fluid w-100">
+						
+						<div class="overlay-item">
+							<i class="ti-link"></i>
+						</div>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Portfolio </h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- section portfolio END -->
+
+<!-- section Counter Start -->
+<section class="section counter bg-success">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="counter-item text-center mb-5 mb-lg-0">
+					<h2 class="mb-0"><span class="counter-stat font-weight-bold">1730</span> +</h2>
+					<p>Project Done</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="counter-item text-center mb-5 mb-lg-0">
+					<h2 class="mb-0"><span class="counter-stat font-weight-bold">74 </span> </h2>
+					<p>Fixed Clint</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="counter-item text-center mb-5 mb-lg-0">
+					<h2 class="mb-0"><span class="counter-stat font-weight-bold">7</span></h2>
+					<p>Availble Country</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="counter-item text-center">
+					<h2 class="mb-0"><span class="counter-stat font-weight-bold">17</span></h2>
+					<p>Award Winner </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- section Counter End  -->
+
+<!-- section  testimonial-->
+<section class="section testimonial">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="heading">
+					<h2 class="mb-4">What they say about us</h2>
+					<p>They are truely amazing in the industry ,molestiae expedita aspernatur officia, similique minima laudantium. Corrupti ipsa perspiciatis commodi nesciunt rerum mollitia enim voluptate!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 testimonial-wrap">
+				<div class="testimonial-block">
+					<p>
+						Maiores quasi placeat harum itaque, ducimus cumque quas expedita hic. Qui ullam iste provident mollitia expedita facilis fuga repellat.
+					</p>
+
+					<div class="client-info d-flex align-items-center">
+						<div class="client-img">
+							<img src="{% static '/images/team/testimonial1.png' %}" alt="" class="img-fluid">
+						</div>
+						<div class="info">
+							<h6>Joe Biden </h6>
+							<span>46th U.S. President</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonial-block">
+					<p>
+						Wow this service is too good and fast Delivary.His coding style is very nice and clear.I recommend him.
+					</p>
+
+					<div class="client-info d-flex align-items-center">
+						<div class="client-img">
+							<img src="{% static '/images/team/testimonial2.png' %}" alt="" class="img-fluid">
+						</div>
+						<div class="info">
+							<h6>Donald Trump</h6>
+							<span>45th U.S. President</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonial-block">
+					<p>
+						If you need to develop or design a PHP website THIS IS YOUR GUY! Does AMAZING work. Went above and beyond, listened to feedback and instruction extremely well. I was worried this was going to be a difficult project to pull off but this seller...
+					</p>
+
+					<div class="client-info d-flex align-items-center">
+						<div class="client-img">
+							<img src="{% static '/images/team/testimonial3.png' %}" alt="" class="img-fluid">
+						</div>
+						<div class="info">
+							<h6>Vladimir Putin </h6>
+							<span>President of Russia </span>
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonial-block">
+					<p>
+						This seller is VERY responsive and works very hard to deliver whatever you need. He is attentive to detail and allows you to make necessary changes. When there happen to be bugs, he is prompt in fixing them. 
+					</p>
+
+					<div class="client-info d-flex align-items-center">
+						<div class="client-img">
+							<img src="{% static '/images/team/testimonial4.png' %}" alt="" class="img-fluid">
+						</div>
+						<div class="info">
+							<h6>hu Jintao</h6>
+							<span>the People's Republic of China</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonial-block">
+					<p>
+						This seller is VERY responsive and works very hard to deliver whatever you need. He is attentive to detail and allows you to make necessary changes. When there happen to be bugs, he is prompt in fixing them. 
+					</p>
+
+					<div class="client-info d-flex align-items-center">
+						<div class="client-img">
+							<img src="{% static '/images/team/testimonial5.png' %}" alt="" class="img-fluid">
+						</div>
+						<div class="info">
+							<h6>Rishi Sunak</h6>
+							<span>Prime Minister of the United Kingdom</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonial-block">
+					<p>
+						I gave this seller a very unique project with many specific and odd requirements. I was nervous with a project of this complexity. He didn't question them whatsoever and was great and communicative throughout the whole process.
+					</p>
+
+					<div class="client-info d-flex align-items-center">
+						<div class="client-img">
+							<img src="{% static '/images/team/testimonial6.png' %}" alt="" class="img-fluid">
+						</div>
+						<div class="info">
+							<h6>Barack Obama</h6>
+							<span>44th U.S. President</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+{% endblock %}
